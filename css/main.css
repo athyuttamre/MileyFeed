@@ -21,7 +21,7 @@ h1 {
 	margin: auto;
 
 	border-bottom: 1px solid #dfdfdf;
-	box-shadow: 2px -2px 0px -3px rgba(200, 200, 200, 0.3);
+	box-shadow: 0px 3px 3px -2px rgba(200, 200, 200, 0.3);
 	background: #fff;
 }
 
@@ -74,8 +74,14 @@ h1 {
 	margin-bottom: 3px;
 }
 
+.tweet_heading_text > a, .tweet_heading_text > a:hover, .tweet_heading_text > a:visited {
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .fullname {
 	font-family: "Helvetica Neue";
+	color: black;
 	font-size: 1em;
 	font-weight: 500;
 	margin-right: 5px;
@@ -100,7 +106,7 @@ h1 {
 }
 
 footer {
-	height: 80px;
+	height: 100px;
 	width: 600px;
 	margin: auto;
 
@@ -116,8 +122,45 @@ footer {
 	background: #fff;
 }
 
+#toggle_feed {
+	height: 50px;
+	width: 50px;
+	margin: -25px auto auto auto;
+	border-radius: 100%;
+	border: 3px solid #55acee;
+	background-color: #fff;
+
+	text-align: center;
+}
+
+#play {
+	font-size: 1.5em;
+	line-height: 50px;
+	color: #55acee;
+	margin-left: 3px;
+	display: none;
+	cursor: pointer;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+#pause {
+	font-size: 2.5em;
+	line-height: 38px;
+	color: #55acee;
+	cursor: pointer;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+#play:hover, #pause:hover {
+	color: #4992c9;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
 footer > p {
 	font-size: 1em;
-	line-height: 80px;
+	line-height: 50px;
 }
 
