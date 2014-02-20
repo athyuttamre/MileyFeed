@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'HNL';
+  src: url('../assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.eot?') format('eot'), url('../assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.woff') format('woff'), url('../assets/fonts/HelveticaNeue-Light/HelveticaNeue-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HN';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue.eot?') format('eot'), url('../assets/fonts/HelveticaNeue/HelveticaNeue.woff') format('woff'), url('../assets/fonts/HelveticaNeue/HelveticaNeue.ttf') format('truetype');
+}
+
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-family: "HNL", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 }
 
@@ -80,7 +90,7 @@ h1 {
 }
 
 .fullname {
-	font-family: "Helvetica Neue";
+	font-family: "HN", "Helvetica Neue";
 	color: black;
 	font-size: 1em;
 	font-weight: 500;
@@ -95,14 +105,6 @@ h1 {
 .tweet_body_text {
 	font-size: 1em;
 	line-height: 1.2em;
-}
-
-.time_data {
-	font-family: "Helvetica Neue";
-	font-size: 0.6em;
-	margin: 3px auto;
-	font-weight: 400;
-	color: #8899a6;
 }
 
 footer {
@@ -134,10 +136,10 @@ footer {
 }
 
 #play {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	line-height: 50px;
 	color: #55acee;
-	margin-left: 3px;
+	margin-left: 7px;
 	display: none;
 	cursor: pointer;
 	transition: 0.5s;
